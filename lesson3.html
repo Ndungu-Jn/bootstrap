@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Elements</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <!--    add a table  name, gender, email, age        -->
+            <table class="table table-hover table-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>John Kiama</td>
+                    <td>Male</td>
+                    <td>cj@mail.com</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>Cecile Wambui</td>
+                    <td>Female</td>
+                    <td>cw@mail.com</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Mark Kamau</td>
+                    <td>Male</td>
+                    <td>mk@mail.com</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>Penina Wairimu</td>
+                    <td>Female</td>
+                    <td>pw@mail.com</td>
+                    <td>19</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <h3>Register Now</h3>
+            <form action="">
+                <div class="my-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input id="name" type="text" class="form-control" placeholder="Enter your name">
+                </div>
+                <div class="my-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input id="password" type="password" class="form-control" placeholder="Enter your password">
+                </div>
+
+                <div class="my-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" type="email" class="form-control" placeholder="Enter your email">
+                </div>
+
+                <div class="my-3">
+                    <label for="date" class="form-label">DOB</label>
+                    <input id="date" min="1990-01-01" max="2009-12-31" type="date" class="form-control"
+                           placeholder="DOB">
+                </div>
+
+                <div class="my-3">
+                    <label for="weight" class="form-label">Weight in kgs</label>
+                    <input id="weight" type="number" step="any" class="form-control" placeholder="Enter your weight">
+                </div>
+
+                <!--                select for educational level-->
+                <!--                Radio button for gender-->
+                <!--                4 checkboxes  for favourite sports-->
+
+                <button class="btn btn-success">Register</button>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
